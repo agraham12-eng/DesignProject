@@ -1,0 +1,155 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #e9e9e9;
+ }
+
+ header {
+     background-color: rgb(255, 139, 159);
+     display: flex;
+     align-items: center;
+     height: 110px;
+ }
+
+ header a {
+     /*text decorataion removes the underline form the textz*/
+     text-decoration: none;
+     color: #b6ff3b;
+     font-size: 28px;
+     /* font weight is basicaly the. thickness of the font and how bold it appears*/
+     font-weight: bolder;
+     padding: 15px 25px;
+     /* this prevents resizing so it doesent overlap */
+     box-sizing: border-box;
+ }
+
+ header a:hover {
+     background-color: white;
+     color: purple;
+     border-radius: 10px;
+     border-color: black;
+ }
+
+
+ .Formthing {
+     width: 70%;
+     margin: 50px auto;
+     background-color: white;
+     padding: 40px;
+     border-radius: 15px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+ }
+
+ .Formthing h1 {
+     text-align: center;
+     margin-bottom: 30px;
+     color: #7a00b8;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ label {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ input,
+ select,
+ textarea {
+     padding: 15px;
+     font-size: 18px;
+     border: 2px solid #ccc;
+     border-radius: 10px;
+ }
+
+ textarea {
+     height: 120px;
+ }
+
+ button {
+     padding: 15px;
+     font-size: 22px;
+     font-weight: bold;
+     border-radius: 10px;
+     background-color: #7a00b8;
+     color: white;
+ }
+
+ button:hover {
+     background-color: #a100ff;
+ }
+
+ .gpus {
+     top: 25px;
+     position: absolute;
+     left: 300px;
+     height: 100px;
+     width: 200px;
+     font-size: 32px;
+     text-align: center;
+     color: greenyellow;
+ }
+
+ .homepage {
+     position: absolute;
+     left: -25px;
+     top: 25px;
+     height: 100px;
+     width: 500px;
+     font-size: 32px;
+     text-align: center;
+     color: greenyellow;
+ }
+
+ .cpus {
+     position: absolute;
+     left: 1000px;
+     top: 25px;
+     height: 20px;
+     width: 200px;
+     font-size: 32px;
+     text-align: center;
+     color: greenyellow;
+ }
+
+ .forms {
+     position: absolute;
+     left: 450px;
+     top: 25px;
+     height: 100px;
+     width: 600px;
+     font-size: 32px;
+     text-align: center;
+     color: greenyellow;
+ }
+
+ .Accesries {
+     position: absolute;
+     left: 1200px;
+     height: 100px;
+     top: 25px;
+     width: 200px;
+     font-size: 32px;
+     text-align: center;
+     color: greenyellow;
+ }
+ footer{
+    margin-top:60px;
+    background:#c86cff;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:18px;
+}
+u{
+    font-size: 3px;
+}

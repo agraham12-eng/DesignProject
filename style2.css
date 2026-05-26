@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+
+.gpus {
+    top: 25px;
+    position: absolute;
+    left: 300px;
+    height: 100px;
+    width: 200px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.homepage {
+    position: absolute;
+    left: -25px;
+    top: 25px;
+    height: 100px;
+    width: 500px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.cpus {
+    position: absolute;
+    left: 1000px;
+    top: 25px;
+    height:20px;
+    width: 200px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+.forms {
+    position: absolute;
+    left: 450px;
+    top: 25px;
+    height: 100px;
+    width: 600px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+.Accesries{
+    position: absolute;
+    left: 1200px;
+    height: 100px;
+    top: 25px;
+    width: 200px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.mrkatz{
+    width:90%;
+    max-width:1300px;
+    margin:auto;
+}
+
+
+.gpuu{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:30px;
+    margin-top:40px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+.gpuu img{
+    width:45%;
+    border-radius:20px;
+}
+
+.gpugpu{
+    width:50%;
+}
+
+.gpugpu h2{
+    color:#8a00d4;
+    font-size:40px;
+}
+
+.gpugpu p{
+    font-size:20px;
+    line-height:1.6;
+}
+
+/* ===== GPU CARDS ===== */
+.gpu-grid{
+    display:grid;
+    /*created with w3 schools to make it so that the 3 divs are side by side*/
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:50px;
+}
+
+/* ===== CARD ===== */
+.GPUDIV{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.GPUDIV:hover{
+    transform:translateY(-10px);
+}
+
+.GPUDIV img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.GPUDIV-content{
+    padding:20px;
+}
+
+.GPUDIV-content h3{
+    color:#7d00c4;
+    font-size:28px;
+}
+
+.GPUDIV-content p{
+    font-size:18px;
+    line-height:1.5;
+}
+
+/* ===== SPECS SECTION ===== */
+.tableCompareThing{
+    margin-top:60px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+.tableCompareThing h2{
+    text-align:center;
+    color:#7d00c4;
+    font-size:40px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:25px;
+}
+
+table th{
+    background:#c86cff;
+    color:white;
+    padding:15px;
+    font-size:20px;
+}
+
+table td{
+    padding:15px;
+    text-align:center;
+    font-size:18px;
+    border-bottom:1px solid #ddd;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    margin-top:60px;
+    background:#c86cff;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:18px;
+}
+
+u{
+    font-size: 5px;
+}
+header {
+    background-color: rgb(255, 139, 159);
+    display: flex;
+    align-items: center;
+
+    /* fixed height */
+    height: 110px;
+}
+
+header a {
+    /*text decorataion removes the underline form the textz*/
+    text-decoration: none;
+    color: #b6ff3b;
+    font-size: 28px;
+    /* font weight is basicaly the. thickness of the font and how bold it appears*/
+    font-weight: bolder;
+    padding: 15px 25px;
+    /* this prevents resizing so it doesent overlap */
+    box-sizing: border-box;
+}
+
+header a:hover {
+    background-color: white;
+    color: purple;
+    border-radius: 10px;
+    border-color: black;
+}

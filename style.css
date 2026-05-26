@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main {
+    margin-top: 0;
+    padding-top: 0;
+}
+header {
+    background-color: rgb(255, 139, 159);
+    display: flex;
+    align-items: center;
+
+    /* fixed height */
+    height: 110px;
+}
+
+header a {
+    /*text decorataion removes the underline form the textz*/
+    text-decoration: none;
+    color: #b6ff3b;
+    font-size: 28px;
+    /* font weight is basicaly the. thickness of the font and how bold it appears*/
+    font-weight: bolder;
+    padding: 15px 25px;
+    /* this prevents resizing so it doesent overlap */
+    box-sizing: border-box;
+}
+
+header a:hover {
+    background-color: white;
+    color: purple;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.noah{
+    position: relative;
+    top: 30px;
+    text-align:  center;
+}
+.logo{
+    background-image: url(logo.png);
+}
+.logo{
+    height: 600px;
+    width: 725px;
+    border: 3px solid black;
+    display: inline-block;
+    background-size: 725px 600px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(136, 1, 167);
+    position: relative;
+    top: 0px;
+    left: 1px;
+    z-index: 1;
+}
+.paragraph{
+    height: 300px;
+    width: 725px;
+    border: 3px solid black;
+    display: inline-block;
+    background-size: 725px 600px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(136, 1, 167);
+    position: relative;
+    top: -480px;
+    left: 0px;
+    z-index: 1;
+
+}
+.image{
+    background-image: url(Screenshot\ 2026-05-08\ at\ 8.39.30\ AM.png);
+    height: 450px;
+    width: 725px;
+    border: 3px solid black;
+    display: inline-block;
+    background-size: 725px 450px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(136, 1, 167);
+    position: relative;
+    top: -630px;
+    left: 729px;
+    z-index: 1;
+}
+
+
+.gpus {
+    top: 25px;
+    position: absolute;
+    left: 300px;
+    height: 100px;
+    width: 200px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.homepage {
+    position: absolute;
+    left: -25px;
+    top: 25px;
+    height: 100px;
+    width: 500px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.cpus {
+    position: absolute;
+    left: 1000px;
+    top: 25px;
+    height:20px;
+    width: 200px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+.forms {
+    position: absolute;
+    left: 450px;
+    top: 25px;
+    height: 100px;
+    width: 600px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+.Accesries{
+    position: absolute;
+    left: 1200px;
+    height: 100px;
+    top: 25px;
+    width: 200px;
+    font-size: 32px;
+    text-align: center;
+    color: greenyellow;
+}
+
+
+.grid{
+    display:grid;
+    padding: 20px;
+}
+#gpu{
+    position: relative;
+    top: -650px;
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
+    left: 10px;
+}
+#cpu{
+    position: relative;
+    top: -350px;
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
+    left: -345px;
+}
+.textig{
+    height: 550px;
+    width: 600px;
+    border: 3px solid black;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(136, 1, 167);
+    position: relative;
+    top: -905px;
+    right: -450px;
+    z-index: 1;
+}
+#keyboard{
+    position: relative;
+    top: -650px;
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
+    left: 400px;
+
+}
+
+#Mouse{
+    position: relative;
+    top: -350px;
+    width: 350px;
+    height: 250px;  
+    left: 40px;
+
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    padding: 0;
+}
+ footer{
+    background:#c86cff;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:18px;
+}
